@@ -14,9 +14,10 @@ download: false
 lineNumbers: true
 
 fonts:
-  sans: Noto Sans TC
-  serif: Noto Serif TC
+  sans: LINESeedTW
+  serif: GenRyuMin2TW
   mono: Fira Code
+  sansation: Sansation
 
 transition: blur-in
 default:

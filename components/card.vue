@@ -1,14 +1,12 @@
 <template>
-  <div
-    class="card py-8 rounded-lg bg-[var(--card-background)] shadow-lg origin-center border-b-4 border-r-4 border-[var(--primary-highlight)]"
-  >
+  <div class="card py-8 rounded-lg shadow-lg origin-center">
     <header
       v-if="$slots.header"
       class="mb-6 text-xl text-center text-[var(--secondary)] font-semibold"
     >
       <span
         v-if="headerNumber"
-        class="inline-block text-2xl -skew-x-16 font-antonio font-bold"
+        class="inline-block text-2xl -skew-x-16 font-bold"
         >{{ headerNumber }}.</span
       >
       <slot name="header" />

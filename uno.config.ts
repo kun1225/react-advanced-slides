@@ -19,7 +19,7 @@ export default defineConfig({
     presetWebFonts({
       provider: 'google',
       fonts: {
-        antonio: 'Antonio',
+        sansation: 'Sansation',
       },
     }),
   ],

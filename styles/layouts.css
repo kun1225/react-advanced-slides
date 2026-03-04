@@ -32,6 +32,7 @@
 
   strong {
     @apply relative text-[var(--secondary)];
+    font-weight: 400 !important;
 
     /* &::before {
       content: '';
@@ -40,11 +41,11 @@
   }
 
   h1 {
-    @apply text-[2rem] mb-4 text-primary font-black;
+    @apply text-[2rem] mb-4 text-primary font-bold font-serif;
   }
 
   h2 {
-    @apply text-2xl my-2 font-semibold;
+    @apply text-[1.25rem] my-2;
   }
 
   h3 {

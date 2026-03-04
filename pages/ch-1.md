@@ -11,8 +11,11 @@ React 的核心模型
 layout: center
 ---
 
-<ChapterTitle number="1" subtitle="React 核心觀念 - 聲明式">
-  <span class="font-mono italic !leading-[0]">UI = f(state)</span>
+<ChapterTitle number="02" subtitle="React 核心觀念 - 聲明式">
+  <span>React 核心運作模式</span>
+  <br/>
+  <span>重渲染的本質、具體過程</span>
+
 </ChapterTitle>
 
 <!--

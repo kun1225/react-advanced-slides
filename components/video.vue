@@ -24,7 +24,7 @@ withDefaults(
     src?: string;
   }>(),
   {
-    controls: true,
+    controls: false,
     autoplay: true,
     loop: true,
     muted: true,
