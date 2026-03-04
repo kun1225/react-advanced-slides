@@ -1,0 +1,37 @@
+/* Animation */
+.blur-in-enter-active,
+.blur-in-leave-active {
+  transition:
+    opacity 0.2s linear,
+    filter 0.2s linear;
+}
+
+.blur-in-enter-from,
+.blur-in-leave-to {
+  opacity: 0;
+  filter: blur(4px);
+}
+
+.slidev-vclick-target {
+  position: relative;
+  transition:
+    transform 0.2s ease-in-out,
+    visibility 0.2s linear,
+    opacity 0.2s linear,
+    filter 0.2s linear;
+  visibility: visible;
+  transform-origin: left center;
+}
+
+.slidev-layout.center {
+  .slidev-vclick-target {
+    transform-origin: center;
+  }
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  visibility: hidden;
+  filter: blur(4px);
+  transform: scale(0.98);
+}

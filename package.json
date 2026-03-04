@@ -1,0 +1,22 @@
+{
+  "name": "react-workshop",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.8.2",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-the-unnamed": "^0.0.22",
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "@unocss/preset-web-fonts": "^66.3.2",
+    "prettier": "^3.6.0",
+    "prettier-plugin-slidev": "^1.0.5"
+  }
+}

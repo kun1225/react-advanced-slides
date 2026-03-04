@@ -1,0 +1,16 @@
+.card {
+  ul,
+  li {
+    line-height: 2;
+  }
+}
+
+.chapter-title {
+  p {
+    @apply !my-0;
+  }
+
+  h1 {
+    @apply !my-0 text-white;
+  }
+}

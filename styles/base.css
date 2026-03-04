@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'GenRyuMin2TW';
+  src: url('/fonts/GenRyuMin2TW-B.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary: #31e8ff;
+  --secondary: #f97316;
+  --mute: #78909c;
+  --primary-highlight: #134f5c;
+  --secondary-highlight: #8f7b31;
+  --card-background: #333340;
+
+  --slidev-theme-primary: var(--primary);
+
+  --slidev-code-background: #2e3440;
+  --slidev-code-foreground: #d8dee9;
+  --slidev-code-tab-text-color: #d8dee9;
+
+  --slidev-code-font-size: 0.9rem;
+  --slidev-code-line-height: 1.6;
+  --slidev-code-padding: 0.75rem 1rem;
+}
+
+.slidev-code-wrapper {
+  @apply rounded-lg;
+}
+
+.slidev-code-wrapper,
+.slidev-code {
+  max-height: 400px;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    height: 0px;
+    width: 4px;
+    background: var(--slidev-code-foreground);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: white;
+  }
+}
+
+.slidev-code-wrapper > .slidev-code {
+  max-height: initial;
+}
+
+.shadow {
+  color: white !important;
+  filter: drop-shadow(rgba(8, 227, 255, 0.95) 0px 0px 2.42238px)
+    drop-shadow(rgba(39, 231, 255, 0.75) 0px 0px 12.1119px)
+    drop-shadow(rgba(39, 231, 255, 0.44) 0px 0px 36.3357px);
+}
+
+.card {
+  position: relative;
+  background: linear-gradient(to right, #3d3d3d80, #00000080);
+  padding: 16px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  opacity: 80%;
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 8px;
+
+  background-image: linear-gradient(135deg, #696767, #00000080);
+  background-origin: border-box;
+  mask-image: linear-gradient(white, white), linear-gradient(white, white);
+  mask-composite: exclude, add;
+  mask-clip: padding-box, border-box;
+
+  z-index: -1;
+}
