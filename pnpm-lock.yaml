@@ -17,9 +17,15 @@ importers:
       '@slidev/theme-seriph':
         specifier: latest
         version: 0.25.0
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
       slidev-theme-the-unnamed:
         specifier: ^0.0.22
         version: 0.0.22(@nuxt/kit@3.17.5)(@vue/compiler-sfc@3.5.17)(postcss@8.5.6)(rollup@4.44.0)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.32)(jiti@2.4.2)(tsx@4.20.3)(yaml@2.8.0))
+      tailwind-merge:
+        specifier: ^3.5.0
+        version: 3.5.0
       vue:
         specifier: ^3.5.16
         version: 3.5.17(typescript@5.8.3)
@@ -1235,6 +1241,10 @@ packages:
   clone-regexp@3.0.0:
     resolution: {integrity: sha512-ujdnoq2Kxb8s3ItNBtnYeXdm07FcU0u8ARAT1lQ2YdMwQC+cdiXX8KoqMVuglztILivceTtp4ivqGSmEmhBUJw==}
     engines: {node: '>=12'}
+
+  clsx@2.1.1:
+    resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
+    engines: {node: '>=6'}
 
   codemirror-theme-vars@0.1.2:
     resolution: {integrity: sha512-WTau8X2q58b0SOAY9DO+iQVw8JKVEgyQIqArp2D732tcc+pobbMta3bnVMdQdmgwuvNrOFFr6HoxPRoQOgooFA==}
@@ -2614,6 +2624,9 @@ packages:
   super-regex@0.2.0:
     resolution: {integrity: sha512-WZzIx3rC1CvbMDloLsVw0lkZVKJWbrkJ0k1ghKFmcnPrW1+jWbgTkTEWVtD9lMdmI4jZEz40+naBxl1dCUhXXw==}
     engines: {node: '>=14.16'}
+
+  tailwind-merge@3.5.0:
+    resolution: {integrity: sha512-I8K9wewnVDkL1NTGoqWmVEIlUcB9gFriAEkXkfCjX5ib8ezGxtR3xD7iZIxrfArjEsH7F1CHD4RFUtxefdqV/A==}
 
   theme-vitesse@0.6.4:
     resolution: {integrity: sha512-uCn8emUUfEOKoukSZz0GqxB5q+gQ2wVEXx6+cCKWbXIjW56afkozVdosVSqXkRuML7i77tMmzMbvzcY/2uc01w==}
@@ -4726,6 +4739,8 @@ snapshots:
     dependencies:
       is-regexp: 3.1.0
 
+  clsx@2.1.1: {}
+
   codemirror-theme-vars@0.1.2: {}
 
   color-convert@2.0.1:
@@ -6306,6 +6321,8 @@ snapshots:
       clone-regexp: 3.0.0
       function-timeout: 0.1.1
       time-span: 5.1.0
+
+  tailwind-merge@3.5.0: {}
 
   theme-vitesse@0.6.4: {}
 

@@ -145,6 +145,14 @@ src: ./pages/ch-5-5.md
 ---
 
 ---
+src: ./pages/ch-5-6.md
+---
+
+---
+src: ./pages/ch-5-7.md
+---
+
+---
 src: ./pages/ch-6.md
 ---
 

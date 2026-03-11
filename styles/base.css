@@ -29,7 +29,9 @@
   --primary-highlight: #134f5c;
   --secondary-highlight: #8f7b31;
   --card-background: #333340;
+}
 
+.slidev-layout {
   --slidev-theme-primary: var(--primary);
 
   --slidev-code-background: rgb(46, 52, 64, 0.7);
@@ -65,7 +67,7 @@
   max-height: initial;
 }
 
-.shadow {
+.shadow-text {
   color: white !important;
   filter: drop-shadow(rgba(8, 227, 255, 0.95) 0px 0px 2.42238px)
     drop-shadow(rgba(39, 231, 255, 0.75) 0px 0px 12.1119px)
@@ -98,4 +100,10 @@
   mask-clip: padding-box, border-box;
 
   z-index: -1;
+}
+
+.note {
+  textarea {
+    color: black;
+  }
 }

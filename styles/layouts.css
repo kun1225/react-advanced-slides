@@ -97,7 +97,19 @@
   }
 
   h2 {
-    @apply text-3xl font-bold mb-8 leading-10;
+    @apply text-5xl font-serif  font-bold leading-10;
+  }
+
+  .card {
+    padding: 64px;
+
+    ul {
+      @apply list-disc list-inside;
+    }
+
+    h2 {
+      @apply text-4xl font-serif mb-8;
+    }
   }
 }
 

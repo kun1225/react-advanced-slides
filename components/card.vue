@@ -1,5 +1,7 @@
 <template>
-  <div class="card py-8 rounded-lg shadow-lg origin-center">
+  <div
+    :class="`card py-8 rounded-lg shadow-lg origin-center ${props.class || ''}`"
+  >
     <header
       v-if="$slots.header"
       class="mb-6 text-xl text-center text-[var(--secondary)] font-semibold"
@@ -21,5 +23,6 @@
 <script setup lang="ts">
 const props = defineProps<{
   headerNumber?: number;
+  class?: string;
 }>();
 </script>
