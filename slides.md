@@ -153,7 +153,15 @@ src: ./pages/ch-5-7.md
 ---
 
 ---
-src: ./pages/ch-6.md
+src: ./pages/ch-6-1.md
+---
+
+---
+src: ./pages/ch-6-2.md
+---
+
+---
+src: ./pages/ch-6-3.md
 ---
 
 ---
