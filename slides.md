@@ -113,6 +113,10 @@ src: ./pages/ch-2-3.md
 ---
 
 ---
+src: ./pages/ch-2-4.md
+---
+
+---
 src: ./pages/ch-3-1.md
 ---
 
